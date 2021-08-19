@@ -16,8 +16,6 @@ public class RegisterForm {
     @Autowired
     private UserService userService;
 
-
-
     @RequestMapping(value="/registerForm")
     public ModelAndView index(ModelAndView model) {
         model.setViewName("registerForm");
