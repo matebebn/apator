@@ -10,7 +10,7 @@
 
 		<!-- Database Connection Settings -->
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/apator?useSSL=false</property>
+		<property name="hibernate.connection.url">jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_4db504de93a1b3e?reconnect=true</property>
 		<property name="hibernate.connection.username">b42b586981e703</property>
 		<property name="hibernate.connection.password">5efe3df1</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
